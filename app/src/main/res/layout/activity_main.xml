@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:background="@color/colorBG"
+    android:background="@color/colorMain"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -24,15 +24,18 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Adjective:"
+            android:textColor="@color/colorBG"
             android:textSize="30sp" />
 
         <EditText
             android:id="@+id/adjText"
-            android:layout_width="277dp"
+            android:layout_width="208dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@color/colorSecondary"
             android:ems="10"
             android:inputType="textPersonName"
+            android:textColor="@color/colorBG"
             android:textSize="30sp" />
 
     </LinearLayout>
@@ -53,15 +56,18 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Noun:"
+            android:textColor="@color/colorBG"
             android:textSize="30sp" />
 
         <EditText
             android:id="@+id/nounText"
-            android:layout_width="204dp"
+            android:layout_width="133dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@color/colorSecondary"
             android:ems="10"
             android:inputType="textPersonName"
+            android:textColor="@color/colorBG"
             android:textSize="30sp" />
 
     </LinearLayout>
@@ -82,15 +88,18 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Animal:"
+            android:textColor="@color/colorBG"
             android:textSize="30sp" />
 
         <EditText
             android:id="@+id/animalText"
-            android:layout_width="204dp"
+            android:layout_width="141dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@color/colorSecondary"
             android:ems="10"
             android:inputType="textPersonName"
+            android:textColor="@color/colorBG"
             android:textSize="30sp" />
 
     </LinearLayout>
@@ -111,22 +120,25 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Number:"
+            android:textColor="@color/colorBG"
             android:textSize="30sp" />
 
         <EditText
             android:id="@+id/numText"
-            android:layout_width="204dp"
+            android:layout_width="149dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@color/colorSecondary"
             android:ems="10"
             android:inputType="textPersonName"
+            android:textColor="@color/colorBG"
             android:textSize="30sp" />
 
     </LinearLayout>
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="43dp" />
+        android:layout_height="68dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -138,10 +150,16 @@
             android:layout_width="109dp"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
+            android:background="@color/colorSecondary"
             android:foregroundGravity="center_horizontal"
             android:onClick="sendInfo"
             android:text="Submit"
+            android:textColor="@color/colorBG"
             android:textSize="18sp" />
     </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="298dp" />
 
 </LinearLayout>

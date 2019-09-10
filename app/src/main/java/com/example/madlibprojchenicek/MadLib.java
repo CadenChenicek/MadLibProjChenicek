@@ -27,7 +27,7 @@ public class MadLib extends AppCompatActivity {
         String output = "One day Jeff Bezos, the CEO of Amazon decided to start a new company. He called this company " + noun + ". ";
         output += noun + " was a farming company that milked " + adj + " " + animal + "s. " + " The problem was that Jeff only bought " + num + " " + animal + "s. ";
         output += " This was a problem because " + noun + " did not made enough profits. Jeff went bankrupt and bought a small apartment. ";
-        output += "He lived there with his " + animal + "s and drank their milk. THE END :)";
+        output += "He lived there with his " + adj + " " + animal + "s and drank their milk. THE END :)";
 
         TextView outputText = (TextView) findViewById(R.id.madLib);
         outputText.setText(output);
